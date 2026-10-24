@@ -3,7 +3,7 @@ artifacts = ["/app/src"]
 
 [task]
 name = "local/02-atomman-peierls-migration"
-version = "1.0.2"
+version = "1.0.3"
 description = "Anisotropic dissociated dislocation migration saddle and effective overdamped escape rates"
 authors = [{ name = "wyw" }]
 
