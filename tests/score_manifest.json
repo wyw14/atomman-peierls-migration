@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "test_files": [
+    "test_outputs.py"
+  ],
+  "groups": [
+    {
+      "id": "minima",
+      "weight": "7/50",
+      "basis": "Both independently selected metastable states",
+      "nodes": [
+        "test_outputs.py::test_minima[core-0-leading]",
+        "test_outputs.py::test_minima[core-0-trailing]",
+        "test_outputs.py::test_minima[core-1-leading]",
+        "test_outputs.py::test_minima[core-1-trailing]",
+        "test_outputs.py::test_minima[core-2-leading]",
+        "test_outputs.py::test_minima[core-2-trailing]",
+        "test_outputs.py::test_minima[core-3-leading]",
+        "test_outputs.py::test_minima[core-4-leading]",
+        "test_outputs.py::test_minima[core-5-leading]",
+        "test_outputs.py::test_minima[core-5-trailing]",
+        "test_outputs.py::test_minima[core-6-leading]",
+        "test_outputs.py::test_minima[core-7-leading]",
+        "test_outputs.py::test_minima[critical-leading-1e-08]",
+        "test_outputs.py::test_minima[critical-leading-1e-09]",
+        "test_outputs.py::test_minima[critical-leading-1e-10]",
+        "test_outputs.py::test_minima[critical-leading-1e-11]",
+        "test_outputs.py::test_minima[critical-leading-5e-13]",
+        "test_outputs.py::test_minima[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "saddle",
+      "weight": "7/50",
+      "basis": "Selected collective index-one transition state",
+      "nodes": [
+        "test_outputs.py::test_saddle[core-0-leading]",
+        "test_outputs.py::test_saddle[core-0-trailing]",
+        "test_outputs.py::test_saddle[core-1-leading]",
+        "test_outputs.py::test_saddle[core-1-trailing]",
+        "test_outputs.py::test_saddle[core-2-leading]",
+        "test_outputs.py::test_saddle[core-2-trailing]",
+        "test_outputs.py::test_saddle[core-3-leading]",
+        "test_outputs.py::test_saddle[core-4-leading]",
+        "test_outputs.py::test_saddle[core-5-leading]",
+        "test_outputs.py::test_saddle[core-5-trailing]",
+        "test_outputs.py::test_saddle[core-6-leading]",
+        "test_outputs.py::test_saddle[core-7-leading]",
+        "test_outputs.py::test_saddle[critical-leading-1e-08]",
+        "test_outputs.py::test_saddle[critical-leading-1e-09]",
+        "test_outputs.py::test_saddle[critical-leading-1e-10]",
+        "test_outputs.py::test_saddle[critical-leading-1e-11]",
+        "test_outputs.py::test_saddle[critical-leading-5e-13]",
+        "test_outputs.py::test_saddle[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "barriers",
+      "weight": "4/25",
+      "basis": "Both forward/reverse physical activation barriers",
+      "nodes": [
+        "test_outputs.py::test_barriers[core-0-leading]",
+        "test_outputs.py::test_barriers[core-0-trailing]",
+        "test_outputs.py::test_barriers[core-1-leading]",
+        "test_outputs.py::test_barriers[core-1-trailing]",
+        "test_outputs.py::test_barriers[core-2-leading]",
+        "test_outputs.py::test_barriers[core-2-trailing]",
+        "test_outputs.py::test_barriers[core-3-leading]",
+        "test_outputs.py::test_barriers[core-4-leading]",
+        "test_outputs.py::test_barriers[core-5-leading]",
+        "test_outputs.py::test_barriers[core-5-trailing]",
+        "test_outputs.py::test_barriers[core-6-leading]",
+        "test_outputs.py::test_barriers[core-7-leading]",
+        "test_outputs.py::test_barriers[critical-leading-1e-08]",
+        "test_outputs.py::test_barriers[critical-leading-1e-09]",
+        "test_outputs.py::test_barriers[critical-leading-1e-10]",
+        "test_outputs.py::test_barriers[critical-leading-1e-11]",
+        "test_outputs.py::test_barriers[critical-leading-5e-13]",
+        "test_outputs.py::test_barriers[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "negative_curvature",
+      "weight": "1/10",
+      "basis": "Full free-coordinate negative Hessian eigenvalue",
+      "nodes": [
+        "test_outputs.py::test_negative_curvature[core-0-leading]",
+        "test_outputs.py::test_negative_curvature[core-0-trailing]",
+        "test_outputs.py::test_negative_curvature[core-1-leading]",
+        "test_outputs.py::test_negative_curvature[core-1-trailing]",
+        "test_outputs.py::test_negative_curvature[core-2-leading]",
+        "test_outputs.py::test_negative_curvature[core-2-trailing]",
+        "test_outputs.py::test_negative_curvature[core-3-leading]",
+        "test_outputs.py::test_negative_curvature[core-4-leading]",
+        "test_outputs.py::test_negative_curvature[core-5-leading]",
+        "test_outputs.py::test_negative_curvature[core-5-trailing]",
+        "test_outputs.py::test_negative_curvature[core-6-leading]",
+        "test_outputs.py::test_negative_curvature[core-7-leading]",
+        "test_outputs.py::test_negative_curvature[critical-leading-1e-08]",
+        "test_outputs.py::test_negative_curvature[critical-leading-1e-09]",
+        "test_outputs.py::test_negative_curvature[critical-leading-1e-10]",
+        "test_outputs.py::test_negative_curvature[critical-leading-1e-11]",
+        "test_outputs.py::test_negative_curvature[critical-leading-5e-13]",
+        "test_outputs.py::test_negative_curvature[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "unstable_mode",
+      "weight": "1/10",
+      "basis": "Full normalized signed collective instability vector",
+      "nodes": [
+        "test_outputs.py::test_unstable_mode[core-0-leading]",
+        "test_outputs.py::test_unstable_mode[core-0-trailing]",
+        "test_outputs.py::test_unstable_mode[core-1-leading]",
+        "test_outputs.py::test_unstable_mode[core-1-trailing]",
+        "test_outputs.py::test_unstable_mode[core-2-leading]",
+        "test_outputs.py::test_unstable_mode[core-2-trailing]",
+        "test_outputs.py::test_unstable_mode[core-3-leading]",
+        "test_outputs.py::test_unstable_mode[core-4-leading]",
+        "test_outputs.py::test_unstable_mode[core-5-leading]",
+        "test_outputs.py::test_unstable_mode[core-5-trailing]",
+        "test_outputs.py::test_unstable_mode[core-6-leading]",
+        "test_outputs.py::test_unstable_mode[core-7-leading]",
+        "test_outputs.py::test_unstable_mode[critical-leading-1e-08]",
+        "test_outputs.py::test_unstable_mode[critical-leading-1e-09]",
+        "test_outputs.py::test_unstable_mode[critical-leading-1e-10]",
+        "test_outputs.py::test_unstable_mode[critical-leading-1e-11]",
+        "test_outputs.py::test_unstable_mode[critical-leading-5e-13]",
+        "test_outputs.py::test_unstable_mode[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "mobility_growth",
+      "weight": "3/25",
+      "basis": "Mobility-weighted dynamical growth",
+      "nodes": [
+        "test_outputs.py::test_mobility_growth[core-0-leading]",
+        "test_outputs.py::test_mobility_growth[core-0-trailing]",
+        "test_outputs.py::test_mobility_growth[core-1-leading]",
+        "test_outputs.py::test_mobility_growth[core-1-trailing]",
+        "test_outputs.py::test_mobility_growth[core-2-leading]",
+        "test_outputs.py::test_mobility_growth[core-2-trailing]",
+        "test_outputs.py::test_mobility_growth[core-3-leading]",
+        "test_outputs.py::test_mobility_growth[core-4-leading]",
+        "test_outputs.py::test_mobility_growth[core-5-leading]",
+        "test_outputs.py::test_mobility_growth[core-5-trailing]",
+        "test_outputs.py::test_mobility_growth[core-6-leading]",
+        "test_outputs.py::test_mobility_growth[core-7-leading]",
+        "test_outputs.py::test_mobility_growth[critical-leading-1e-08]",
+        "test_outputs.py::test_mobility_growth[critical-leading-1e-09]",
+        "test_outputs.py::test_mobility_growth[critical-leading-1e-10]",
+        "test_outputs.py::test_mobility_growth[critical-leading-1e-11]",
+        "test_outputs.py::test_mobility_growth[critical-leading-5e-13]",
+        "test_outputs.py::test_mobility_growth[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "harmonic_rates",
+      "weight": "3/25",
+      "basis": "Full-coordinate harmonic and thermal activation factors",
+      "nodes": [
+        "test_outputs.py::test_harmonic_rates[core-0-leading]",
+        "test_outputs.py::test_harmonic_rates[core-0-trailing]",
+        "test_outputs.py::test_harmonic_rates[core-1-leading]",
+        "test_outputs.py::test_harmonic_rates[core-1-trailing]",
+        "test_outputs.py::test_harmonic_rates[core-2-leading]",
+        "test_outputs.py::test_harmonic_rates[core-2-trailing]",
+        "test_outputs.py::test_harmonic_rates[core-3-leading]",
+        "test_outputs.py::test_harmonic_rates[core-4-leading]",
+        "test_outputs.py::test_harmonic_rates[core-5-leading]",
+        "test_outputs.py::test_harmonic_rates[core-5-trailing]",
+        "test_outputs.py::test_harmonic_rates[core-6-leading]",
+        "test_outputs.py::test_harmonic_rates[core-7-leading]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-1e-08]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-1e-09]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-1e-10]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-1e-11]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-5e-13]",
+        "test_outputs.py::test_harmonic_rates[critical-leading-1e-12]"
+      ]
+    },
+    {
+      "id": "line-length",
+      "weight": "1/50",
+      "basis": "All returned fields under line-length thermal rescaling",
+      "nodes": [
+        "test_outputs.py::test_transformed_physical_outputs[line-length-minima]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-saddle]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-barriers_eV_per_A]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-negative_eigenvalue]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-unstable_mode]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-growth_rate_s]",
+        "test_outputs.py::test_transformed_physical_outputs[line-length-log_rates_s]"
+      ]
+    },
+    {
+      "id": "mobility-rescaling",
+      "weight": "1/50",
+      "basis": "All returned fields under uniform mobility rescaling",
+      "nodes": [
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-minima]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-saddle]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-barriers_eV_per_A]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-negative_eigenvalue]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-unstable_mode]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-growth_rate_s]",
+        "test_outputs.py::test_transformed_physical_outputs[mobility-rescaling-log_rates_s]"
+      ]
+    },
+    {
+      "id": "surface-energy-gauge",
+      "weight": "1/50",
+      "basis": "All returned fields under constant GSFE gauge shift",
+      "nodes": [
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-minima]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-saddle]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-barriers_eV_per_A]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-negative_eigenvalue]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-unstable_mode]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-growth_rate_s]",
+        "test_outputs.py::test_transformed_physical_outputs[surface-energy-gauge-log_rates_s]"
+      ]
+    },
+    {
+      "id": "complete_schema",
+      "weight": "1/50",
+      "basis": "All seven complete finite fields on every selected valid invocation",
+      "nodes": [
+        "test_outputs.py::test_schema[core-0-leading]",
+        "test_outputs.py::test_schema[core-0-trailing]",
+        "test_outputs.py::test_schema[core-1-leading]",
+        "test_outputs.py::test_schema[core-1-trailing]",
+        "test_outputs.py::test_schema[core-2-leading]",
+        "test_outputs.py::test_schema[core-2-trailing]",
+        "test_outputs.py::test_schema[core-3-leading]",
+        "test_outputs.py::test_schema[core-4-leading]",
+        "test_outputs.py::test_schema[core-5-leading]",
+        "test_outputs.py::test_schema[core-5-trailing]",
+        "test_outputs.py::test_schema[core-6-leading]",
+        "test_outputs.py::test_schema[core-7-leading]",
+        "test_outputs.py::test_schema[critical-leading-1e-08]",
+        "test_outputs.py::test_schema[critical-leading-1e-09]",
+        "test_outputs.py::test_schema[critical-leading-1e-10]",
+        "test_outputs.py::test_schema[critical-leading-1e-11]",
+        "test_outputs.py::test_schema[critical-leading-5e-13]",
+        "test_outputs.py::test_schema[critical-leading-1e-12]",
+        "test_outputs.py::test_transformed_schema[line-length]",
+        "test_outputs.py::test_transformed_schema[mobility-rescaling]",
+        "test_outputs.py::test_transformed_schema[surface-energy-gauge]",
+        "test_outputs.py::test_repeated_call_schema[0]",
+        "test_outputs.py::test_repeated_call_schema[1]"
+      ]
+    },
+    {
+      "id": "repeat",
+      "weight": "1/100",
+      "basis": "Both independent calls satisfy all physical fields and the public repeat tolerances",
+      "nodes": [
+        "test_outputs.py::test_repeated_call_field[minima]",
+        "test_outputs.py::test_repeated_call_field[saddle]",
+        "test_outputs.py::test_repeated_call_field[barriers_eV_per_A]",
+        "test_outputs.py::test_repeated_call_field[negative_eigenvalue]",
+        "test_outputs.py::test_repeated_call_field[unstable_mode]",
+        "test_outputs.py::test_repeated_call_field[growth_rate_s]",
+        "test_outputs.py::test_repeated_call_field[log_rates_s]"
+      ]
+    },
+    {
+      "id": "input_preservation",
+      "weight": "1/100",
+      "basis": "Every protected native-object call preserves model/GammaSurface/settings snapshots",
+      "nodes": [],
+      "measurement": "input_preservation"
+    },
+    {
+      "id": "argument_rejection",
+      "weight": "1/50",
+      "basis": "Malformed settings use the documented ValueError channel",
+      "nodes": [
+        "test_outputs.py::test_invalid_settings[n-12]",
+        "test_outputs.py::test_invalid_settings[n-True]",
+        "test_outputs.py::test_invalid_settings[plateau_width-4]",
+        "test_outputs.py::test_invalid_settings[plateau_width-11]",
+        "test_outputs.py::test_invalid_settings[partial-other]",
+        "test_outputs.py::test_invalid_settings[temperature_K-0]",
+        "test_outputs.py::test_invalid_settings[frequency_s--1]",
+        "test_outputs.py::test_invalid_settings[mobility-value7]",
+        "test_outputs.py::test_invalid_settings[mobility-value8]",
+        "test_outputs.py::test_missing_setting"
+      ],
+      "intent": "rejection"
+    }
+  ],
+  "hard_gates": []
+}
